@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+djangorestframework-gis = "*"
+djoser = "*"
+pillow = "*"
+django-cors-headers = "*"
+gdal = {path = "./gdal/GDAL-3.4.3-cp311-cp311-win_amd64.whl"}
+psycopg2 = "*"
+django-iranian-cities = {git = "https://github.com/sageteam-org/django-iranian-cities.git"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.5"
